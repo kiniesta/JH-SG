@@ -47,8 +47,11 @@ class B {
         System.out.println("Bono: " + bono);
     }
 }
-
+/** 
+ * Clase C imprime un saludo custom
+ */
 class C {
+    /** Metodo para imprimir el saludo */
     void imprimirSaludo() {
         if (A.edad < 18) {
             System.out.println("Hola, joven " + A.nombre);
