@@ -4,8 +4,11 @@ package org.example;
  * Clase A que almacena y gestiona datos de una persona.
  */
 class A {
+    /** Nombre de la persona */
     static String nombre = "SinNombre";
+    /** Edad de la persona */
     static int edad = 0;
+    /** Salario de la persona */
     static double salario = 0.0;
 
     
