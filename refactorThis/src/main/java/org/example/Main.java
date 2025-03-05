@@ -11,7 +11,13 @@ class A {
     /** Salario de la persona */
     static double salario = 0.0;
 
-    
+    /**
+     * Método para asignar valores a los atributos de la persona.
+     * 
+     * @param n Nombre de la persona.
+     * @param e Edad de la persona.
+     * @param s Salario de la persona.
+     */
     static void datos(String n, int e, double s) {
         nombre = n;
         edad = e;
