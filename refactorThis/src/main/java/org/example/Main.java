@@ -30,8 +30,13 @@ class A {
         System.out.println("Salario: " + salario);
     }
 }
-
+/**
+ * Clase B que calcula el bono en base a la edad y salario de la persona.
+ */
 class B {
+    /**
+     * Método para calcular y mostrar el bono correspondiente.
+     */
     void calcularBono() {
         double bono = 0;
         if (A.edad > 50) {
