@@ -1,10 +1,14 @@
 package org.example;
 
+/**
+ * Clase A que almacena y gestiona datos de una persona.
+ */
 class A {
     static String nombre = "SinNombre";
     static int edad = 0;
     static double salario = 0.0;
 
+    
     static void datos(String n, int e, double s) {
         nombre = n;
         edad = e;
