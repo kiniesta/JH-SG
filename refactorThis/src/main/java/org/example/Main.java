@@ -23,7 +23,7 @@ class A {
         edad = e;
         salario = s;
     }
-
+    /** Método para mostrar los datos de la persona */
     static void mostrar() {
         System.out.println("Nombre: " + nombre);
         System.out.println("Edad: " + edad);
