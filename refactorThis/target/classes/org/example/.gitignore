@@ -1,0 +1,20 @@
+# Archivos de entorno de desarrollo
+.idea/
+.vscode/
+*.iml
+
+# Archivos generados por Java durante la compilación
+bin/
+out/
+*.class
+
+# Archivos de logs
+*.log
+
+# Archivos de dependencias de compilación
+.gradle/
+.mvn/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
